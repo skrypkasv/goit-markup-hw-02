@@ -1,0 +1,69 @@
+/* основной белый цвет #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* фоновый цвет футера #2F303A */
+/* основной цвет текста #757575 */
+/* вторичный цвет текста  #212121 */
+/* акцент #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Логотип */
+.logo .web {
+  color: var(--accent-color);
+}
+
+.logo .studio {
+  color: var(--secondary-text-color);
+}
+
+/* Навигация сайта */
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Mail & Tel */
+.mail,
+.tel {
+  color: var(--primary-text-color);
+}
+
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+
+/* Заголовки */
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+/* Button */
+.button-primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
